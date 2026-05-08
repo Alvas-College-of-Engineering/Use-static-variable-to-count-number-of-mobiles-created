@@ -5,10 +5,9 @@ Use static variable to count number of mobiles created
 ## Run
 
 ```powershell
-## Run
+javac -d out src\mobilemanagement\*.java
+java -cp out mobilemanagement.MobileManagementServer 9191
 
-```powershell
-.\apache-maven-3.9.15\bin\mvn.cmd compile exec:java
 ```
 
 Then open:
@@ -16,10 +15,5 @@ Then open:
 ```text
 http://localhost:9191/
 ```
-```
 
-Then open:
 
-```text
-http://localhost:8080/
-```
